@@ -23,18 +23,25 @@ header blockquote {
     color: #f4d35e;
 }
 
-header nav li {
+nav {
     text-align: center;
+}
+
+nav li {
     display: inline;
     font-size: 2.25em;
 }
 
-header nav a {
+nav a {
     text-decoration: none;
     color: #f4d35e;
 }
 
-header nav a {
+nav li a {
+    padding: 2%;
+}
+
+nav a:hover {
     text-decoration: underline;
 }
 
@@ -72,6 +79,21 @@ main table {
     margin: 1%;
 }
 
-main tr {
-    display: block;
+main td {
+    color: #0d3b66;
+    display: inline;
+    border: 2px solid #0d3b66;
+}
+
+/* footer  */
+
+footer {
+    background-color: #0d3b66;
+}
+
+footer p {
+    font-size: 1.25em;
+    padding: 2%;
+    text-align: center;
+    color: #f4d35e;
 }
