@@ -74,16 +74,15 @@ main p {
     padding: 0.5%;
 }
 
-main table {
-    display: block;
+table, td {
     margin: 1%;
-}
-
-main td {
-    color: #0d3b66;
-    display: inline;
     border: 2px solid #0d3b66;
 }
+
+/* td {
+    color: #0d3b66;
+    display: inline;
+} */
 
 /* footer  */
 
