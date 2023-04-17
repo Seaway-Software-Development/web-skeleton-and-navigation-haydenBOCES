@@ -49,6 +49,7 @@ nav a:hover {
 
 main {
     background-color: #faf0ca;
+    min-height: 800px;
 }
 
 main h1 {
