@@ -1,4 +1,4 @@
-/*
+ /*
 0D3B66 - Blue
 FAF0CA - Tan
 F4D35E - Gold
@@ -48,7 +48,7 @@ nav a:hover {
 }
 
 header img {
-    margin: 2 18%;
+    margin: 2% 18%;
 }
 
 /* main */
@@ -88,6 +88,16 @@ table, td {
 
 main article {
     padding: 150px 20%;
+	font-size: 2.5em;
+	text-justify: inter-word;
+}
+
+main button {
+	position: relative;
+	margin: 0 auto;
+	font-size: 1.75em;
+	border: 2px solid black;
+	border-radius: 20px;
 }
 
 /* footer  */
