@@ -1,4 +1,4 @@
- /*
+/*
 0D3B66 - Blue
 FAF0CA - Tan
 F4D35E - Gold
@@ -81,27 +81,58 @@ main p {
     padding: 0.5%;
 }
 
-table, td {
+table {
+	margin: 2% 23%;
+    border: 2px solid #0d3b66;
+}
+
+td {
+	padding: 1%;
     margin: 1%;
     border: 2px solid #0d3b66;
 }
 
-main container {
-    width: 80%;
-}
-
 main article {
-    padding: 150px 20%;
+    padding: 150px 10.5%;
 	font-size: 2.5em;
 	text-justify: inter-word;
+	width: 80%;
+}
+
+main section {
+	border: 2.5px solid black;
+	border-radius: 30px;
+	margin: 2%;
+	padding: 2%;
 }
 
 main button {
-	position: relative;
-	margin: 0 auto;
+	margin: 1% 12%;
+	padding: 0 20%;
 	font-size: 1.75em;
 	border: 2px solid black;
 	border-radius: 20px;
+}
+
+iframe {
+	padding: 2% 10%;
+	width: 80%;
+	height: 600px;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 5%;
+}
+
+.grid div {
+	padding: 5%;
+}
+
+div img {
+	width: 100%;
+	height: 300px;
 }
 
 /* footer  */
@@ -110,9 +141,45 @@ footer {
     background-color: #0d3b66;
 }
 
+input {
+	display: block;
+}
+
 footer p {
     font-size: 1.25em;
     padding: 2%;
     text-align: center;
     color: #f4d35e;
+}
+
+#footGrid {
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 20%;
+	padding: 2%;
+}
+
+#footGrid section {
+	width: 45%;
+}
+
+.button {
+	display: inline;
+	font-size: 1.5em;
+	margin: 3%;
+	padding: 2%;
+}
+
+#footGrid label {
+	font-size: 1.75em;
+    text-align: center;
+    color: #f4d35e;
+}
+
+#footGrid input {
+	margin: 2%;
+}
+
+.input {
+	padding: 4%;
 }
