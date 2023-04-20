@@ -135,6 +135,45 @@ div img {
 	height: 300px;
 }
 
+.grid2 {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 2%;
+	width: 95%;
+}
+
+.grid2 img {
+	width: 90%;
+	padding: 8%;
+}
+
+.floatLeft {
+	width: 90%;
+	margin: 2%;
+}
+
+.floatLeft img {
+	display: inline;
+	width: 17.5%;
+	float: left;
+}
+
+.floatRight {
+	width: 90%;
+	margin: 2%;
+	background-color: #0D3B66;
+}
+
+.floatRight img {
+	display: inline;
+	width: 17.5%;
+	float: right;
+}
+
+.floatRight h1, .floatRight h2, .floatRight p {
+	color: #F4D35E;
+}
+
 /* footer  */
 
 footer {
